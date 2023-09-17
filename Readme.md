@@ -1,3 +1,3 @@
 # MOVIELENS RECOMMENDATION SYSTEM
-![Alt text](avatar.jpg)
+https://i.pinimg.com/564x/fe/e1/82/fee18255038ec125aa716dfd1d686bd5.jpg
 ## INTRODUCTION
