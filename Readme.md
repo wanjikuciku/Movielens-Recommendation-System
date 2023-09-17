@@ -2,14 +2,15 @@
 ![movielens](avatar.jpg)
 
 Overview of the project:
-1. [INTRODUCTION](#introduction)
-2. [BUSINESS UNDERSTANDING](#business-understanding)
-3. [DATA UNDERSTANDING](#data-understanding)
-4. [DATA PREPARATION](#data-preparation)
-5. [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
-6. [MODELLING](#modelling)
-7. [CONCLUSION](#conclusion)
-8. [RECOMMENDATIONS](#recommendations)
+- INTRODUCTION
+- BUSINESS UNDERSTANDING
+- PROBLEM STATEMENT
+- DATA UNDERSTANDING
+- DATA PREPARATION
+- EXPLORATORY DATA ANALYSIS
+- MODELLING
+- CONCLUSION
+- RECOMMENDATIONS
 ## Introduction
 In today's world of countless movie options, it can be challenging for users to find movies that match their preferences. Recommendation systems come to the rescue by offering personalized movie recommendations based on user ratings. In this task, we aim to build a recommendation system using the MovieLens dataset to provide users with their top 5 movie recommendations.
 
@@ -23,8 +24,6 @@ The problem is to build a recommendation system that can accurately predict and 
 Root Mean Squared Error (RMSE): RMSE is a commonly used evaluation metric for recommendation systems that deal with explicit ratings. It measures the average magnitude of the differences between the predicted ratings and the actual ratings given by users. A lower RMSE indicates better accuracy and performance of the recommendation system.
 
 Mean Absolute Error (MAE): MAE is another widely used metric for recommendation systems. It calculates the average absolute difference between the predicted ratings and the actual ratings. MAE provides a measure of how well the recommendation system can estimate user preferences without considering the direction of the errors. Like RMSE, a lower MAE indicates better accuracy and performance of the recommendation system.
-
-## Data Exploration
 
 ### Data Understanding
 The Data sourced for this project was the "movielens Dataset" which was sourced from grouplens.org/datasets/movielens.
@@ -45,4 +44,35 @@ The dataset includes:
 Each row represents a specific tag assigned by a user to a movie.
 
 `links.csv`:This file contains links to external movie databases (IMDb and TMDB).
+
+## EDA
+Count of Movie Title by Year
+![movie_year_count](comby.png)
+
+Highest Rated Title
+![highest_rated_title](frmt.png)
+
+Highest rated genre
+![highest_rated_genre](hrg.png)
+## Modelling
+
+
+
+## Conclusion
+
+**EDA:**
+
+Action|Adventure is the highest rated genre.
+
+Content based filtering - Addressed the cold start problem where there is linited or no user data available for new users. Thus by analyzing content by genre and the ratings provided i managed to create a recommendation system based on similarities to the items.
+
+**Modelling:**
+
+Matrix factorization(SVD baseline model and NMF) the SVD perfromed much better as compared to the other models (RMSE 0.85, MAE 0.66), the lower values indicate better accuracy and perfromance.
+
+## RECOMMENDATIONS
+
+Further analysis should be done by feature selection and engineering and also perfrom some ensemble methods to improve on the metrics of success of the models.
+
+Getting more data on user feedback and user satisfaction also will aid in the improvement of the recommendation system.
 
