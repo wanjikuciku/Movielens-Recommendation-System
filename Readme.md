@@ -12,13 +12,16 @@ Overview of the project:
 - CONCLUSION
 - RECOMMENDATIONS
 ## Introduction
-In today's world of countless movie options, it can be challenging for users to find movies that match their preferences. Recommendation systems come to the rescue by offering personalized movie recommendations based on user ratings. In this task, we aim to build a recommendation system using the MovieLens dataset to provide users with their top 5 movie recommendations.
+In today's world of countless movie options, it can be challenging for users to find movies that match their preferences.Streaming platforms like Netflix have provided a way of people to consume entertainment.However, with the extensive library of content, users have a difficult time finding shows that align with their preference. Recommendation systems come to the rescue by offering personalized movie recommendations based on user ratings.In this task, I aim to build a recommendation system using the MovieLens dataset to provide users with their top 5 movie recommendations.
 
 ## Business Understanding
-The goal of this recommendation system is to enhance the movie-watching experience for users by suggesting movies that they are likely to enjoy based on their ratings of other movies. By offering personalized recommendations, we can increase user engagement, satisfaction, and ultimately drive user retention on the platform.
+The objective is to build a recommendation system for Netflix to deliver seemless and personalized user experience by offering accurate movie and TV recommendations. As the Data Scientist involved my goal of this recommendation system is to enhance the movie-watching experience for users by suggesting movies that they are likely to enjoy based on their ratings of other movies. By offering personalized recommendations, one can increase user engagement, satisfaction, and ultimately drive user retention on the platform.
+The Stakeholders are:
+- Netflix Users - The primary stakeholders, since they rely on the recommendation system to enjoy relevant movies based on their preferences.
+- Netflix Management and Executives - They are interested in improving the user satisfaction, increase viewership and maximize revenue.
 
 ## Problem Statement
-The problem is to build a recommendation system that can accurately predict and recommend the top 5 movies for a user based on their ratings of other movies. The system should leverage collaborative filtering techniques and content based filtering techniques to analyze user preferences and generate accurate recommendations.
+The problem is to build a recommendation system that can accurately predict and recommend the top 5 movies for a user based on their ratings of other movies and genres. The system should leverage collaborative filtering techniques and content based filtering techniques to analyze user preferences and generate accurate recommendations.
 
 ## Metric of success
 Root Mean Squared Error (RMSE): RMSE is a commonly used evaluation metric for recommendation systems that deal with explicit ratings. It measures the average magnitude of the differences between the predicted ratings and the actual ratings given by users. A lower RMSE indicates better accuracy and performance of the recommendation system.
