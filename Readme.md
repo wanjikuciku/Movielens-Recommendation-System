@@ -1,5 +1,15 @@
 # MOVIELENS RECOMMENDATION SYSTEM
 ![movielens](avatar.jpg)
+
+Overview of the project:
+1. [INTRODUCTION](#introduction)
+2. [BUSINESS UNDERSTANDING](#business-understanding)
+3. [DATA UNDERSTANDING](#data-understanding)
+4. [DATA PREPARATION](#data-preparation)
+5. [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+6. [MODELLING](#modelling)
+7. [CONCLUSION](#conclusion)
+8. [RECOMMENDATIONS](#recommendations)
 ## Introduction
 In today's world of countless movie options, it can be challenging for users to find movies that match their preferences. Recommendation systems come to the rescue by offering personalized movie recommendations based on user ratings. In this task, we aim to build a recommendation system using the MovieLens dataset to provide users with their top 5 movie recommendations.
 
