@@ -56,7 +56,15 @@ Highest rated genre
 ![highest_rated_genre](hrg.png)
 ## Modelling
 
+Performed Content based filtering based on attributes like genres and ratings to provide recommendations.
 
+Performed collaborative filtering techniques like:
+- Matrix factorization methods such as SVD and NMF to learn factors that represent user preferences and item characteristics. 
+SVD performed best with the lowest RMSE(0.86) and MAE(0.6) when hyperparameter tuning was done.
+NMF RMSE(0.92) and MAE(0.70)
+- KNNBasic - Basic KNN algorithmn, relies on finding nearest neighbors based on user-item interactions. RMSE(0.96) and MAE(0.74)
+- KNNBaseline - establishes a baseline performance for collaborative filtering-based recommender systems.
+- MLP(Multi-Layer Perceptron) - Is a type of articificial neural network consisting of multiple layers of interconnected nodes. RMSE(1.04) and MAE(0.83)
 
 ## Conclusion
 
