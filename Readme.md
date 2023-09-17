@@ -59,7 +59,7 @@ Highest rated genre
 ![highest_rated_genre](hrg.png)
 ## Modelling
 
-Performed Content based filtering based on attributes like genres and ratings to provide recommendations.
+Performed Content based filtering based on the attributes, genres and ratings to provide recommendations.
 
 Performed collaborative filtering techniques like:
 - Matrix factorization methods such as SVD and NMF to learn factors that represent user preferences and item characteristics. 
